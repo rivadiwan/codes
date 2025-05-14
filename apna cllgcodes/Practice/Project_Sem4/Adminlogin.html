@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    
+    text-align:center;
+    background-image:url('login.jpg') ;
+}
+
+
+</style>
+</head>
+<body>
+    <h1>Admin Login</h1>
+    <div style='margin-top:80px'>
+    <form action="admindashboard.html" onsubmit="return ValidateEmail('Admin')">
+       
+        <label>Email:</label><br>
+        <input type="text" name="email" required id='text1'><br>
+        <label >Password:</label><br>
+        <input type="password"  name="Password" required><br><br>
+        <input type="submit" value="Submit">
+      </form>
+      </div>
+    
+    <script src="Email_validation.js"></script>  
+</body>
+</html>
